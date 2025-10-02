@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(119, 168, 192) 0%,
+    rgb(246, 213, 174) 100%
+  );
+}
+
+#side {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  background: rgb(222, 217, 215);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+#side p {
+  text-align: center;
+  font-weight: 700;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(29, 42, 46);
+  color: white;
+}
+
+#footer > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#footer button {
+  background: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#images h1 {
+  font-weight: 500;
+}
+
+#images img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#first,
+#second {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#first {
+  text-transform: capitalize;
+  top: 25%;
+  left: 30%;
+}
+
+#second {
+  text-transform: capitalize;
+  top: 70%;
+  left: 55%;
+}
+
+#first div,
+#second div {
+    font-weight: 900;
+  font-family: "Asimovian", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#shirt {
+  position: absolute;
+  top: 15%;
+  left: 26%;
+}
+
+#hero {
+  position: absolute;
+  top: 35%;
+  margin-left: 7rem;
+}
+
+#hero img {
+  width: 30px;
+  height: 30px;
+}
+
+#hero p {
+  font-size: 6rem;
+  font-weight: 900;
+  color: rgb(243, 245, 246);
+}
+
+#nav {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-around;
+}
+
+#sidebar {
+  display: flex;
+  gap: 2rem;
+}
+
+#sidebar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #343333;
+}
+
+#nav button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.logo {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+  color: #423838;
+}
+
+.logo span {
+  color: #ebebeb;
+}
